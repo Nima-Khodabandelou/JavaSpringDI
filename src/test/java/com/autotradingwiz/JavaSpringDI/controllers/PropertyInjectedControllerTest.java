@@ -1,6 +1,6 @@
 package com.autotradingwiz.JavaSpringDI.controllers;
 
-import com.autotradingwiz.JavaSpringDI.services.GreetingServiceImpl;
+import com.autotradingwiz.JavaSpringDI.services.ConstructorGreetingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -11,7 +11,7 @@ class PropertyInjectedControllerTest {
     void setUp() {
         controller = new PropertyInjectedController();
 
-        controller.greetingService = new GreetingServiceImpl();
+        controller.greetingService = new ConstructorGreetingService();
     }
 
     @Test
