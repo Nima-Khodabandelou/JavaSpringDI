@@ -4,8 +4,7 @@ import com.autotradingwiz.JavaSpringDI.services.ConstructorGreetingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class PropertyInjectedControllerTest {
-    
+class PropertyInjectedControllerTest {    
     PropertyInjectedController controller;
 
     @BeforeEach
