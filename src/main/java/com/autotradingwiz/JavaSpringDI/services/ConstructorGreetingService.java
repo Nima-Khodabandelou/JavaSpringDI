@@ -1,5 +1,4 @@
 package com.autotradingwiz.JavaSpringDI.services;
-
 import org.springframework.stereotype.Service;
 
 @Service
