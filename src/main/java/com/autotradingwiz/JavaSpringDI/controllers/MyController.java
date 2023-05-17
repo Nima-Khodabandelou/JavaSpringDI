@@ -1,6 +1,6 @@
 package com.autotradingwiz.JavaSpringDI.controllers;
-
 import com.autotradingwiz.JavaSpringDI.services.GreetingService;
+
 import org.springframework.stereotype.Controller;
 
 @Controller
